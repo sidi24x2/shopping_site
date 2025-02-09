@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles/style.scss';
 import Header from './components/Header';
 import Aside from './components/Aside';
@@ -103,7 +103,7 @@ function App() {
   let toggleMode = () => {
     document.body.classList.toggle('dark-mode');
   };
-  toggleMode();
+
   return (
     <ProductsContext.Provider
       value={{
