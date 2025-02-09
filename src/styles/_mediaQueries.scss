@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-areas: 'aside' 'main';
+  }
+  .main {
+    grid-area: main;
+  }
+  .aside {
+    button {
+      padding: 2rem;
+    }
+  }
+}

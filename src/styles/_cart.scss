@@ -1,0 +1,36 @@
+.cart {
+  position: fixed;
+  color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(black, 0.8);
+  overflow: auto;
+  padding: 1rem;
+  z-index: 7;
+}
+.cart {
+  li {
+    margin: 1rem;
+    border-top: 1px solid white;
+    padding-top: 1rem;
+  }
+  h4,
+  h5,
+  h6 {
+    color: white;
+    padding: 0.5rem;
+  }
+  span {
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  .inc {
+    padding: 0.2rem 1rem;
+    background-color: white;
+
+    color: black;
+    margin-bottom: 1rems;
+  }
+}

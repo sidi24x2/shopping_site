@@ -1,0 +1,20 @@
+$primary: #ff5733;
+$secondary: #c7f8ff;
+$cta: #28a745;
+
+.main {
+  grid-area: main;
+}
+.filters {
+  select {
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+    color: $cta;
+    border-radius: 1.3rem;
+  }
+  option {
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+}
