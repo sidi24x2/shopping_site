@@ -6,16 +6,37 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  header {
+    padding: 1.5rem;
+    span {
+      font-size: 3.5srem;
+    }
+  }
+
+  .aside {
+    button {
+      padding: 2rem;
+    }
+  }
+  .products {
+    li {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 1000px;
+  }
   .grid {
     grid-template-columns: 100%;
     grid-template-areas: 'aside' 'main';
   }
   .main {
     grid-area: main;
-  }
-  .aside {
-    button {
-      padding: 2rem;
-    }
   }
 }
